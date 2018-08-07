@@ -1,5 +1,4 @@
 class DrinksController < ApiController
-  before_action :set_drink, only: [:show, :update, :destroy]
 
   # GET /drinks
   def index
