@@ -10,7 +10,7 @@ class DrinksController < ApiController
   # GET /drinks/:id
   def show
     @drink = Drink.find(params[:id])
-    render json: @drink.to_json(:include => {:ingredient => {:only => [:id, :description] }})
+    render json: @drink.to_json(:include => {:ingredients => {:only => [:id, :description] }})
   end
 
   # # POST /drinks
