@@ -1,24 +1,17 @@
-# README
+# Smoothie Mixology
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Ruby on Rails API with a Create-React-App front end.
+
+- Deployed to Heroku at https://smoothie-mixology.herokuapp.com/
+
 
 Things you may want to cover:
 
-* Ruby version
+* Ruby on Rails version
+  - 2.5.1
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
+* Database
+  - PostgreSQL API
 
 * Deployment instructions
-
-* ...
+  - ``` rake start ``` will start both the Ruby on Rails API and React servers and open the application.
